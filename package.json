@@ -1,0 +1,39 @@
+{
+  "name": "@my-dish/template-react-redux-application",
+  "author": "abouthiroppy <git@about-hiroppy.com> (http://about-hiroppy.com)",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/my-dish/template-react-redux-application.git",
+    "type": "git"
+  },
+  "description": "The template for react-redux application",
+  "files": [
+    "npm",
+    "template"
+  ],
+  "keywords": [
+    "react",
+    "redux",
+    "template"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "nyc ava",
+    "test:watch": "nyc ava -w"
+  },
+  "ava": {
+    "files": [
+      "test/**/*.js"
+    ],
+    "concurrency": 5,
+    "failFast": true,
+    "tap": true
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "eslint": "^3.19.0",
+    "eslint-config-sky": "^1.5.0",
+    "nyc": "^10.3.2"
+  }
+}

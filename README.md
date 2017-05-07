@@ -1,13 +1,11 @@
 # React-Redux-Application
 
-<!-- travis https://travis-ci.org/ -->
-<!-- appveyor https://ci.appveyor.com -->
-<!-- codecov https://codecov.io/gh -->
-<!-- npm version badge: https://badge.fury.io/ -->
+[![npm version](https://badge.fury.io/js/%40my-dish%2Ftemplate-react-redux-application.svg)](https://badge.fury.io/js/%40my-dish%2Ftemplate-react-redux-application)
+[![Build Status](https://travis-ci.org/my-dish/template-react-redux-application.svg?branch=master)](https://travis-ci.org/my-dish/template-react-redux-application)
 
 ## Install
 ```
-$ npm install @my-dish/react-redux-application
+$ npm install @my-dish/template-react-redux-application
 ```
 
 ## Tasks
@@ -22,3 +20,4 @@ $ npm run lint
 ```
 
 ## Template
+https://github.com/my-dish/template-react-redux-application/tree/master/template
